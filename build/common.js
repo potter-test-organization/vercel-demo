@@ -1,5 +1,6 @@
 const rewritesConfig = require('./rewrites/index');
 module.exports = {
+  target: 'serverless',
   reactStrictMode: true,
   async rewrites() {
     return rewritesConfig;
