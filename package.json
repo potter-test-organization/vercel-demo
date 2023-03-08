@@ -52,12 +52,16 @@
     "web3": "^1.7.4",
     "reactjs-social-login": "^2.6.2",
     "@react-oauth/google": "^0.8.0",
-    "web3-core": "^1.7.4"
+    "web3-core": "^1.7.4",
+    "@portkey/did-ui-react": "0.0.1-alpha.2.2",
+    "babel-loader": "^8.2.5"
   },
   "resolutions": {
     "@types/react": "18.0.14"
   },
   "devDependencies": {
+    "ts-loader": "^9.4.0",
+
     "@coinbase/wallet-sdk": "^3.3.0",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
