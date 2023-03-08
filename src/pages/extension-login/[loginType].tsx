@@ -15,7 +15,7 @@ export default function ExtensionLogin() {
       <GoogleOAuthProvider clientId={process.env.NEXT_PUBLIC_GG_APP_ID || ''}>
         <GoogleLogin />
       </GoogleOAuthProvider>
-      <SocialTem loginType={loginType as any} />
+      {/* <SocialTem loginType={loginType as any} /> */}
     </div>
   );
 }
